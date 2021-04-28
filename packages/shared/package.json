@@ -1,0 +1,31 @@
+{
+  "name": "@monorepo/shared",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "niteshwosti <niteshwosti13@gmail.com>",
+  "homepage": "https://github.com/niteshwosti/monorepo#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niteshwosti/monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/niteshwosti/monorepo/issues"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.4",
+    "dotenv": "^8.2.0",
+    "typescript": "^4.2.4"
+  }
+}
