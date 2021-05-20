@@ -14,5 +14,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "linaria": "^2.1.0"
+  }
 }
